@@ -1,4 +1,4 @@
-var movenumber =  10;
+var movenumber =  11;
 
 
 function move1(){
@@ -8,6 +8,10 @@ movenumber--;
 if(movenumber % 2 == 0 && movenumber > 0){
     document.getElementById("td1").innerHTML = "O";
 }else{document.getElementById("td1").innerHTML = "X";}
+
+if(movenumber == 2){
+    document.getElementById("refresh-button").style.display = "block";
+}
 }
 
 function move2(){
@@ -17,6 +21,10 @@ movenumber--;
 if(movenumber % 2 == 0 && movenumber > 0){
     document.getElementById("td2").innerHTML = "O";
 }else{document.getElementById("td2").innerHTML = "X";}
+
+if(movenumber == 2){
+    document.getElementById("refresh-button").style.display = "block";
+}
 }
 
 function move3(){
@@ -26,6 +34,10 @@ movenumber--;
 if(movenumber % 2 == 0 && movenumber > 0){
     document.getElementById("td3").innerHTML = "O";
 }else{document.getElementById("td3").innerHTML = "X";}
+
+if(movenumber == 2){
+    document.getElementById("refresh-button").style.display = "block";
+}
 }
 
 function move4(){
@@ -35,6 +47,9 @@ movenumber--;
 if(movenumber % 2 == 0 && movenumber > 0){
     document.getElementById("td4").innerHTML = "O";
 }else{document.getElementById("td4").innerHTML = "X";}
+if(movenumber == 2){
+    document.getElementById("refresh-button").style.display = "block";
+}
 }
 
 function move5(){
@@ -44,6 +59,9 @@ movenumber--;
 if(movenumber % 2 == 0 && movenumber > 0){
     document.getElementById("td5").innerHTML = "O";
 }else{document.getElementById("td5").innerHTML = "X";}
+if(movenumber == 2){
+    document.getElementById("refresh-button").style.display = "block";
+}
 }
 
 function move6(){
@@ -53,6 +71,10 @@ movenumber--;
 if(movenumber % 2 == 0 && movenumber > 0){
     document.getElementById("td6").innerHTML = "O";
 }else{document.getElementById("td6").innerHTML = "X";}
+
+if(movenumber == 2){
+    document.getElementById("refresh-button").style.display = "block";
+}
 }
 
 function move7(){
@@ -62,6 +84,10 @@ movenumber--;
 if(movenumber % 2 == 0 && movenumber > 0){
     document.getElementById("td7").innerHTML = "O";
 }else{document.getElementById("td7").innerHTML = "X";}
+
+if(movenumber == 2){
+    document.getElementById("refresh-button").style.display = "block";
+}
 }
 
 function move8(){
@@ -71,6 +97,10 @@ movenumber--;
 if(movenumber % 2 == 0 && movenumber > 0){
     document.getElementById("td8").innerHTML = "O";
 }else{document.getElementById("td8").innerHTML = "X";}
+
+if(movenumber == 2){
+    document.getElementById("refresh-button").style.display = "block";
+}
 }
 
 function move9(){
@@ -80,4 +110,9 @@ movenumber--;
 if(movenumber % 2 == 0 && movenumber > 0){
     document.getElementById("td9").innerHTML = "O";
 }else{document.getElementById("td9").innerHTML = "X";}
+
+if(movenumber == 2){
+    document.getElementById("refresh-button").style.display = "block";
 }
+}
+
