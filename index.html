@@ -9,22 +9,25 @@
 <body>
     <table>
         <tr>
-            <td id="td1"><img onclick="move1()" id="null1" src="./null.png" alt=""></td>
-            <td id="td2"><img onclick="move2()" id="null2" src="./null.png" alt=""></td>
-            <td id="td3"><img onclick="move3()" id="null3" src="./null.png" alt=""></td>
+            <td id="td1"><img onclick="move1()" class="stop-game" id="null1" src="./null.png" alt=""></td>
+            <td id="td2"><img onclick="move2()" class="stop-game" id="null2" src="./null.png" alt=""></td>
+            <td id="td3"><img onclick="move3()" class="stop-game" id="null3" src="./null.png" alt=""></td>
         </tr>
         <tr>
-            <td id="td4"><img onclick="move4()" id="null4" src="./null.png" alt=""></td>
-            <td id="td5"><img onclick="move5()" id="null5" src="./null.png" alt=""></td>
-            <td id="td6"><img onclick="move6()" id="null6" src="./null.png" alt=""></td>
+            <td id="td4"><img onclick="move4()" class="stop-game" id="null4" src="./null.png" alt=""></td>
+            <td id="td5"><img onclick="move5()" class="stop-game" id="null5" src="./null.png" alt=""></td>
+            <td id="td6"><img onclick="move6()" class="stop-game" id="null6" src="./null.png" alt=""></td>
         </tr>
         <tr>
-            <td id="td7"><img onclick="move7()" id="null7" src="./null.png" alt=""></td>
-            <td id="td8"><img onclick="move8()" id="null8" src="./null.png" alt=""></td>
-            <td id="td9"><img onclick="move9()" id="null9" src="./null.png" alt=""></td>
+            <td id="td7"><img onclick="move7()" class="stop-game" id="null7" src="./null.png" alt=""></td>
+            <td id="td8"><img onclick="move8()" class="stop-game" id="null8" src="./null.png" alt=""></td>
+            <td id="td9"><img onclick="move9()" class="stop-game" id="null9" src="./null.png" alt=""></td>
         </tr>
     </table>
+    <p style="display: none;" id="x-win">X uzvar!</p>
+    <p style="display: none;" id="o-win">O uzvar!</p>
     <button onClick="window.location.reload();" id="refresh-button" style="display: none;" >sākt jaunu spēli</button>
-    <script src="./script.js"></script>
+    
+    <script src="./script copy.js"></script>
 </body>
 </html>
